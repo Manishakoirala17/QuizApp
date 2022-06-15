@@ -1,0 +1,113 @@
+.cardContainer{
+    width: 900px;
+    margin-top: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding: 15pt;
+    margin: auto;
+    
+}
+.tabContainer{
+    width: 95%;
+    margin: auto;
+    border-radius: 10px;
+     display: flex;
+     background-color: #02805c;
+     
+}
+.contentContainer{
+    width: 95%;
+    margin: auto;
+
+}
+
+.tab{
+  width: 50%;
+  text-align: center;
+  border: 1pt solid #007755;
+  background-color: #02805c;
+  border-radius: 10px;
+  color: #ffffff;
+  font-size: 16pt;
+
+
+}
+.tabActive{
+    width: 50%;
+    text-align: center;
+    border: 1pt solid #007755;
+    background-color: #ffffff;
+    border-radius: 10px;
+    color: #02805c;
+    font-size: 16pt;
+}
+.cardTabContainer{
+    width: 100%;
+    background-color: white;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding: 4px;
+}
+.contentDetails1{
+   width: 90%;
+   margin: auto;
+   font-size: 16pt;
+   padding-left: 6px;
+   border-left:2px solid red ;  
+}
+.contentDetails1 div{
+    margin-right: 20px;
+
+}
+.title{
+    color: #000000;
+}
+.contentDetails2{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    color: #666666
+
+
+}
+.contentDetails2 div{
+    margin-right: 20px;
+}
+.subtitle{
+    display: flex;
+    font-size: 12pt;
+    color: #666666
+
+}
+.contentbox{
+    width: 80%;
+    background-color: white;
+    margin: auto;
+    cursor: pointer;
+}
+.expiredDiv{
+    width: 100%;
+    background-color: #ffd2cb;
+    border-top:none;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding: 5px;
+    position: relative;
+    bottom: 4px;
+    color: #cb5542;
+    font-size: 12pt;
+}
+.todayExpireDiv{
+    width: 100%;
+    background-color: #ffffcb;
+    border-top:none;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding: 5px;
+    position: relative;
+    bottom: 4px;
+    color: #e2aa39;
+    font-size: 12pt;
+}

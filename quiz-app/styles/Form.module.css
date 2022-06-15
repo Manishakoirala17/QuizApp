@@ -1,0 +1,137 @@
+.container{
+    width: 60%;
+    display: flex;
+    border: 1px solid #d7d7da;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 6px;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.logoContainer{
+    width: 40%;
+    background-color: #f7f7f8;
+    border-right: 1px solid #e9e9eb;
+}
+
+.loginContainer{
+    width: 0%;
+    margin-left: 28px;
+    padding: 20px;
+}
+.title{
+    font-size: 18pt;
+    font-weight: bold;
+}
+.subtitle{
+    font-size: 14pt;
+    font-weight: normal;
+    color:#666666 ;
+}
+.inputBox{
+    display: flex;
+    width:  315pt;
+    height: 48pt;
+    background: #ffffff;
+    border: 1px solid #a0a0a0;
+    border-radius: 8pt;
+    padding:6px;
+    overflow: hidden;
+    font-family: "Poppins";
+    font-size: 16pt;
+    
+}
+.prefix{
+    font-weight: 300;
+    color: #999;
+    width: 15%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ 
+}
+.suffix{
+font-weight: 300;
+color: #999;
+  width: 15%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   cursor: pointer;
+}
+.inputBox input{
+    flex-grow: 1;
+    font-size: 14pt;
+    background: #fff;
+    border: none;
+    outline: none;
+    padding: 0.5rem;
+  
+}
+.btn{
+    background-color: #028F66;
+    border-radius: 8pt;
+    width: 315pt;
+    height: 48pt;
+    font-size: 14pt;
+    text-transform: uppercase;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+.formContainer{
+    width: 100%;
+    display: grid;
+    grid-template-rows: auto;
+    grid-gap: 20px;    
+    margin: 30px;
+}
+.forgetPasswordBox{
+    width:  315pt;
+    text-decoration: underline;
+    color: #333333;
+    font-size: 14pt;
+}
+.signUpBox{
+    margin-top: 36px;
+    width:  315pt;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.txt_1{
+    font-size: 14pt;
+    text-align: center;
+    color: #666666;
+}
+.txt_2{
+    font-size: 14pt;
+    text-align: center;
+    margin-left:8px;
+    color:#028F66;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.imgContainer{
+    width: 100px;
+    
+}
+.profileImg{
+    border-radius: 50%;
+}
+.cameraImg{
+    width: 34px;
+    position: relative;
+    left: 73%;
+    bottom: 20%;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}

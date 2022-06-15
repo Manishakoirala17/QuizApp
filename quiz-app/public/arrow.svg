@@ -1,0 +1,9 @@
+<svg id="Component_42_19" data-name="Component 42 – 19" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="back">
+    <rect id="Rectangle_2720" data-name="Rectangle 2720" width="24" height="24" fill="none"/>
+    <g id="arrow-left" transform="translate(1.2 3.6)">
+      <path id="Vector" d="M21.4,0H0" transform="translate(0 8.4)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Vector-2" data-name="Vector" d="M8.4,16.8,0,8.4,8.4,0" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

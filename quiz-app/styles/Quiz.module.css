@@ -1,0 +1,200 @@
+.titleContainer{
+    margin-top: 20px;
+}
+.title{   width: 90%;
+margin: auto;
+font-size: 16pt;
+padding-left: 6px;
+border-left:2px solid red ;  
+}
+.title div{
+    margin-right: 20px;
+}
+.titletext{
+    display: flex;
+    font-size: 12pt;
+    color: #666666
+}
+.contentDetails{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    color: #666666;
+   padding-top: 12px
+}
+.contentDetails div{
+    margin-right: 20px;
+}
+.expiredDiv{
+    width: 100%;
+    background-color: #ffd2cb;
+    padding: 5px;
+    color: #cb5542;
+    font-size: 12pt;
+    text-align: center;
+}
+.todayExpireDiv{
+    width: 100%;
+    background-color: #ffffcb;
+    padding: 5px;
+    position: relative;
+    bottom: 4px;
+    color: #e2aa39;
+    font-size: 12pt;
+    text-align: center;
+
+}
+.guideContainer{
+    background-color: #f7f7f8;
+    padding: 10px;
+}
+.testTopic h4,.testGuide h4{
+    font-size: 16pt;
+    font-weight: normal;
+}
+.testTopic li,.testGuide li{
+  font-size: 14pt;
+  color: #666666;
+  margin: 20px;
+}
+.footer{
+    padding-top: 45px;
+    text-align: center;
+}
+.questionContainer{
+    width: 100%;
+}
+.topDiv{
+    display: flex;
+}
+.topDiv p{
+    color: #666666;
+    font-size: 14pt
+}
+.feedBack{
+    width: 120px;
+    display: flex ;
+
+}
+ .feedBackimage{
+    display: flex;
+}
+.feedBacktext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+
+}
+.question{
+    font-size: 18pt;
+    text-align: left;
+}
+.optionContainer{
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 20px;
+    font-size: 16pt;
+    color:#000000;
+}
+.radio{
+    width: 20px; 
+    height: 20px;
+ 
+}
+.header{
+    display: flex;   
+}
+
+.header .timer{
+flex: 1;
+ display: flex;
+align-items: center;
+justify-content: center;
+}
+.timer div{
+    font-size: 22pt;
+    margin-right: 16px;
+}
+.timerText{
+    font-size: 12pt;
+    color: #666666;
+}
+.header .info{
+    width: 20px;
+}
+.info div{
+    border: 2px solid black;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+}
+.footerContainer{
+    display: flex;
+    margin-top: 20px;
+}
+
+.footerContainer .count{
+    flex: 1;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.infoHeader{
+    display: flex;
+    margin: 12px;
+    margin-top: 18px;
+    
+}
+.boxContainer{
+    margin: 12px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+    grid-gap: 10px;
+
+}
+.noBox{
+  width: 80px;
+  border:1px solid #00000033;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  color: #333333;
+  font-size: 16pt;
+ position:relative
+}
+.infoFooter{
+    padding: 20px;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: auto auto;
+}
+.feedBackContainer{
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 15px;
+    width: 600px;
+    border: 1px solid rgb(237, 230, 230);
+}
+.feedBackFields{
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 20px;
+    margin: auto;
+   
+}
+.feedBackButtons{
+    display: flex;
+    margin: auto;
+    margin-top: 10%;
+   
+}
+.confirmContainer{
+    width: 500px;
+    border: 1px solid rgb(189, 187, 187);
+    border-radius: 10px;
+    padding: 20px;
+
+}

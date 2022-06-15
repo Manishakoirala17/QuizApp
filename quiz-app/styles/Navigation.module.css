@@ -1,0 +1,58 @@
+.navContainer{
+    width: 100%;
+    position: fixed;
+    background-color: #028F66;
+    left: 0%;
+    top: 0%;
+    display: flex;
+
+}
+.logo{
+    flex: 1;
+}
+.profileNav {
+    display: flex;
+}
+.profileNav div{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.userDetail{
+    position: relative;
+    top: 40%;
+    left: 0%;
+    transform: translate(10%,-18%);
+    color: white;
+}
+.notification{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.logout{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.profile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content{
+ position: absolute;
+ top:60px;
+ right: 30px;
+ text-align: center;
+ background-color: #ffffff;
+ width: 300px;
+  overflow: auto;
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+.content a{
+    display: block;
+    margin:10px
+}

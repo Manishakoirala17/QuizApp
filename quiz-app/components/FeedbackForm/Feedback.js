@@ -2,7 +2,7 @@ import TextField from "../FormFields/textField";
 import Card from "./../Card/card";
 import Button from "./../FormFields/button";
 import styles from "./../../styles/Quiz.module.css";
-export default function FeedBack() {
+export default function FeedBack({ handleClose, saveFeedback }) {
   const cancelBtn = {
     width: "157pt",
     backgroundColor: "#CCCCCC",
@@ -20,6 +20,9 @@ export default function FeedBack() {
     fontSize: "12pt",
     color: "#666666",
     fontFamily: "Poppins",
+    display: "flex",
+    alignItems: "left",
+    justifyContent: "left",
   };
   const inputStyle = {
     fontSize: "14pt",
@@ -54,8 +57,16 @@ export default function FeedBack() {
         </div>
       </div>
       <div className={styles.feedBackButtons}>
-        <Button buttonName={"Cancel"} style={cancelBtn}></Button>
-        <Button buttonName={"Save"} style={saveBtn}></Button>
+        <Button
+          buttonName={"Cancel"}
+          style={cancelBtn}
+          handleClick={handleClose}
+        ></Button>
+        <Button
+          buttonName={"Save"}
+          style={saveBtn}
+          handleClick={saveFeedback}
+        ></Button>
       </div>
     </div>
   );

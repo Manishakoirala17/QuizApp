@@ -6,17 +6,22 @@ import Image from "next/image";
 import Button from "./../FormFields/button";
 import { useRouter } from "next/router.js";
 
-export default function QuizView() {
+export default function QuizView({ backClick }) {
   const arrowIcon = require("./../../public/arrow.svg");
   const router = useRouter();
   function onStartTestClick() {
     router.push("/questions");
   }
+
   return (
     <div>
       <header>
         <div>
-          <Image src={arrowIcon}></Image>
+          <Image
+            src={arrowIcon}
+            onClick={backClick}
+            style={{ cursor: "pointer" }}
+          ></Image>
         </div>
       </header>
       <main>

@@ -1,8 +1,10 @@
 import styles from "./../../../../styles/Quiz.module.css";
 import Image from "next/image";
-export default function TestInfo() {
+
+export default function TestInfo({ clickCloseIcon }) {
   const closeIcon = require("./../../../../public/closeIcon.svg");
   const feedBackIcon = require("./../../../../public/feedback2.svg");
+
   const answerStyle = {
     backgroundColor: "#F1FFFB",
     border: "1px solid #007251",
@@ -22,7 +24,7 @@ export default function TestInfo() {
         >
           <div className={styles.infoHeader}>
             <div>
-              <Image src={closeIcon}></Image>
+              <Image src={closeIcon} onClick={clickCloseIcon}></Image>
             </div>
             <div style={{ flex: 1, fontSize: "18pt", marginLeft: "50px" }}>
               Test Info

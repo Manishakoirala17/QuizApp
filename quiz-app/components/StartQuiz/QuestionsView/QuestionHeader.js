@@ -1,12 +1,12 @@
 import styles from "./../../../styles/Quiz.module.css";
 import Image from "next/image";
-export default function QuestionHeader({ infoBtnCLick }) {
+export default function QuestionHeader({ infoBtnCLick, questioCloseBtnClick }) {
   const closeIcon = require("./../../../public/closeIcon.svg");
 
   return (
     <div className={styles.header}>
       <div className={styles.close}>
-        <Image src={closeIcon}></Image>
+        <Image src={closeIcon} onClick={questioCloseBtnClick}></Image>
       </div>
       <div className={styles.timer}>
         <div>

@@ -17,12 +17,18 @@ export default function QuestionPage({ list }) {
   function infoBtnCLick() {
     router.push("/test-info");
   }
+  function questioCloseBtnClick() {
+    router.back();
+  }
   function onSubmit() {}
 
   return (
     <div>
       <header style={{ marginBottom: "16px" }}>
-        <QuestionHeader infoBtnCLick={infoBtnCLick}></QuestionHeader>
+        <QuestionHeader
+          infoBtnCLick={infoBtnCLick}
+          questioCloseBtnClick={questioCloseBtnClick}
+        ></QuestionHeader>
       </header>
       <main>
         <Question count={count} question={list[count - 1]}></Question>

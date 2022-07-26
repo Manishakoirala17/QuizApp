@@ -17,7 +17,7 @@ export default function Home() {
       </Head>
       <header className={styles.header}></header>
       <main className={styles.main}>
-        <ConfirmLog></ConfirmLog>
+        <FeedBack></FeedBack>
       </main>
     </div>
   );
